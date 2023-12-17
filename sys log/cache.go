@@ -17,10 +17,10 @@ func TestSmallestBasesWithEndBaseTooLow(t *testing.T) {
 func TestCreate(t *testing.T) {
 	preTestValidate(t)
 
-	net := network.New(t)
-	val := net.Validators[0]
-	ctx := val.ClientCtx
-	cli.ForceSkipConfirm = true
+//	net := network.New(t)
+//	val := net.Validators[0]
+//	ctx := val.ClientCtx
+//	cli.ForceSkipConfirm = true
 
   	t.Run("Recipe", func(t *testing.T) {
 		args := []string{"NewUser0", goodPLR}
